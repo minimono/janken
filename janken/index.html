@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>じゃんけん</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.0/css/all.css">
+  <link rel="stylesheet" href="css/stylesheet.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <script src="js/jquery-3.4.1.min.js"></script>
+</head>
+<body>
+  <h1>じゃんけん</h1>
+  <div class="container">
+    <div class="hands">
+      <button value="0" class="rock">グー</button>
+      <button value="1" class="scissor">チョキ</button>
+      <button value="2" class="paper">パー</button>
+    </div>
+    <p class="hand">プレイヤー：<span class="player-hand"></span>　　　CPU：<span class="cpu-hand"></span></p>
+    <p class="result"></p>
+    <p class="rate">勝率：<span class="percentage">0</span>%</p>
+    <script src="js/index.js"></script>
+  </div>
+</body>
+</html>
